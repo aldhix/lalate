@@ -1,0 +1,10 @@
+/*
+!.gitignore
+!README.md
+!/config
+/config/*
+!/config/admin.php
+!/resources
+/resources/*
+!/resources/views
+/resources/views/welcome.blade.php
