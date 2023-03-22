@@ -1,6 +1,6 @@
 <?php
 return [
-    'logo'=>asset('adminlte/dist/img/AdminLTELogo.png'),
+    'logo'=>'/adminlte/dist/img/AdminLTELogo.png',
     /**
      * --------------------------------------------------------------------------
      * Sidebar Menu
