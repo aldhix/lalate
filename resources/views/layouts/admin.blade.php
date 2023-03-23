@@ -6,7 +6,7 @@
     <title>{{ config('app.name') }}</title>
     @include('layouts.inc.css')
 </head>
-<body class="hold-transition">
+<body class="hold-transition sidebar-mini">
     <div class="wrapper">
         @include('layouts.inc.admin.navbar')
         @include('layouts.inc.admin.sidebar')
