@@ -6,6 +6,23 @@
         <!-- Nav Item -->
     </ul>
     <ul class="navbar-nav ml-auto">
-        <!-- Nav Item -->
+        <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="true">
+                Fullname
+                <i class="fas fa-caret-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right text-sm">
+                <a href="#" class="dropdown-item">
+                    <i class="fas fa-user-circle mr-2"></i> My Profile
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" onclick="event.preventDefault();document.getElementById('form-logout').submit()" class="dropdown-item">
+                    <i class="fas fa-sign-out-alt mr-2"></i> Log Out
+                </a>
+                <form id="form-logout" method="post" action="#">
+                    @csrf
+                </form>
+            </div>
+        </li>
     </ul>
 </nav>
